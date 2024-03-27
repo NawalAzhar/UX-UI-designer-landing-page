@@ -1,0 +1,51 @@
+/* Resetting default margin and font family */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling for the navbar brand */
+.navbar-brand {
+    margin-right: 1rem;
+}
+
+/* Styling for navbar links */
+.navbar-nav {
+    display: flex;
+    justify-content: center; /* Centering menu items horizontally */
+    align-items: center; /* Aligning menu items vertically */
+    /* flex-grow: 1; Allow menu items to grow */
+}
+
+/* Hide navbar links on smaller screens */
+@media (max-width: 991.98px) {
+    .navbar-nav {
+        display: none;
+    }
+}
+
+
+/* carousel setting*/
+        
+#contenttext, #animationlottie {
+    border: 1px solid black; 
+    padding: 0px;
+    margin: 0px;
+  margin-left: auto;
+}
+
+#contenttext {
+padding: 0px;
+margin: 0px 0px 0px 180px;
+/* Add the margin-left of 50px (you can adjust this value as needed) */
+}
+
+#animationlottie {
+padding: 0px;
+margin: 10px 0px 50px 50px;
+/* top 0 0 left*/
+}
+
+.carousel-item {
+height: 450px;
+}

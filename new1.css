@@ -1,0 +1,25 @@
+/* Resetting default margin and font family */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling for the navbar brand */
+.navbar-brand {
+    margin-right: 1rem;
+}
+
+/* Styling for navbar links */
+.navbar-nav {
+    display: flex;
+    justify-content: center; /* Centering menu items horizontally */
+    align-items: center; /* Aligning menu items vertically */
+    /* flex-grow: 1; Allow menu items to grow */
+}
+
+/* Hide navbar links on smaller screens */
+@media (max-width: 991.98px) {
+    .navbar-nav {
+        display: none;
+    }
+}
